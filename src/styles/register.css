@@ -1,0 +1,54 @@
+.input-icons #show_hide {
+    position: absolute;
+    margin-top: 5px;
+}
+
+.input-icons #show_ban {
+    position: absolute;
+    margin-top: 5px;
+}
+
+#validateur{
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+
+
+.fa-times{
+    color: tomato;
+    opacity: 1;
+    border: 2px solid rgba($color: tomato, $alpha: 0.6);
+    border-radius: 50%;
+}
+
+.fa-check{
+    color: green;
+    opacity: 0;
+    border: 2px solid rgba($color: green, $alpha: 0.6);
+    border-radius: 50%;
+}
+
+#validateur p span{
+    font-size: small;
+    padding-left: 40px;
+}
+
+
+#validateur p .icon{
+    position: absolute;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.fa-ban{
+    color: tomato;
+}
+
+.fa-check-circle{
+    color: green;
+}
+
